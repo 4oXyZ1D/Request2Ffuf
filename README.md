@@ -19,6 +19,8 @@ The tool for transfer request file (from BurpSuite 4 exmple) to Ffuf comandline.
 
 ## 📄 Пример использования
 
+### 0. Бро, просто скорми ему файл с запросом :-)
+
 ### 1. Сохраните HTTP-запрос из Burp в файл:
 
 Пример файла `login.txt`:
