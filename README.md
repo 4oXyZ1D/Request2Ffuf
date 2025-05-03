@@ -102,16 +102,6 @@ ffuf -X POST -u "http://example.com/login" -d 'username=FUZZ1&password=FUZZ2' \
 -f param:user=FUZZ1,param:pass=FUZZ2,header:X-Api-Key=FUZZ3
 ```
 
----
-
-## 📂 Структура
-
-```
-http-to-ffuf/
-├── http_to_ffuf.py       # основной скрипт
-├── README.md             # документация
-└── examples/             # примеры запросов (опционально)
-```
 
 ---
 
